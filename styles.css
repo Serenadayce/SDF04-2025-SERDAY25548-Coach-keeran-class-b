@@ -16,7 +16,27 @@
     background-color: hsl(170, 32%, 40%);
     padding: 50px;
 }
-.button{
-    color: hsl(25, 95%, 49%);
+@media(max-width: 668px) {
+.info{
+    background-color: aqua;
 }
+.info::after{
+    content: "ipad";
+}
+}
+@media(max-width:500px){
+    .info{
+        background-color: antiquewhite;
+    }
+    .info::after{
+        content:"iphone";
+    }
+
+}
+    
+    
+
+    
+
+
 
